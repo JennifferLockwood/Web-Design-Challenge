@@ -98,6 +98,11 @@ div.col-sm-12.col-md-12 p {
   font-size: medium;
 }
 
+.panel-body:hover {
+  border-color: blueviolet;
+  border size: 50px;
+}
+
 @include media-breakpoint-down(md) {
   .col-md-8 {
     display: block;
