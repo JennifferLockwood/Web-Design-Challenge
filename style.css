@@ -93,6 +93,11 @@ div.imagetiles div.col-lg-6.col-sm-12 img {
   width: 100%;
 }
 
+div.col-sm-12.col-md-12 p {
+  color: black;
+  font-size: medium;
+}
+
 @include media-breakpoint-down(md) {
   .col-md-8 {
     display: block;
